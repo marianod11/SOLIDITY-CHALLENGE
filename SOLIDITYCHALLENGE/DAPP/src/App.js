@@ -81,7 +81,7 @@ class App extends Component  {
             this.setState({stringBilletes100peso: balance100})
 
             
-        for(var i = 0; i< balanceAcount ; i++){
+        for(var i = 0; i< 200 ; i++){
           var balance21 = await this.state.contract.methods.billetesUsados(i).call()
           var balanceString = balance21.toString()
           this.setState({billetesUsadosAS: [
