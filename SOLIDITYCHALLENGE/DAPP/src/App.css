@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.formContact{
+  box-shadow: 10px 5px 5px  rgb(98, 113, 113);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.balance{
+  color: black;
+  background-color: #61dafb;
+  margin: 40px 0px 0px 0px;
+  padding: 20px;
+}
+.sends{
+  background-color: #157893;
+  padding: 20px;
+}
+.sends1{
+  background-color: #065365;
+  padding: 65px 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.body{
+  background-color: #025b73;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+ 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
